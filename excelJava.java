@@ -1,7 +1,14 @@
 package excelJava;
 
 public class excelJava {
-	
+	public double SUM(double[] args){
+		double sum;
+		sum = 0;
+		for (int i=0; i < args.lenght; i ++)
+			sum = sum + args[i];
+		return sum;
+	}
+		
 	public double MED(double[] args){
 		Arrays.sort(args);
 		double median;
