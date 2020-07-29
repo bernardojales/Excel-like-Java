@@ -8,7 +8,15 @@ public class excelJava {
 			sum = sum + args[i];
 		return sum;
 	}
-		
+	
+		public double Product(double[] args){
+		double product;
+		product = 1;
+		for (int i=0; i < args.lenght; i ++)
+			product = product * args[i];
+		return product;
+	}
+	
 	public double MED(double[] args){
 		Arrays.sort(args);
 		double median;
