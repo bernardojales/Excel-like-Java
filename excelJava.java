@@ -9,7 +9,7 @@ public class excelJava {
 		return sum;
 	}
 	
-		public double Product(double[] args){
+	public double PRODUCT(double[] args){
 		double product;
 		product = 1;
 		for (int i=0; i < args.lenght; i ++)
