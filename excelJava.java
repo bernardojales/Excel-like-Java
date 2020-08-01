@@ -17,6 +17,13 @@ public class excelJava {
 		return product;
 	}
 	
+	public double DIVIDE(double dividend, double divisor){
+		//Excel does not provide a divide function but in Java, especially for begginers getting a precise division can be a challenge
+		double quotient;
+		quotient = dividend / divisor; // the division operator "/" works here because a double/double is forced, a int/double would be imprecise
+		return quotient;
+	}
+	
 	public double MED(double[] args){
 		Arrays.sort(args);
 		double median;
