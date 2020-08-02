@@ -18,7 +18,8 @@ public class excelJava {
 	}
 	
 	public double DIVIDE(double dividend, double divisor){
-		//Excel does not provide a divide function but in Java, especially for begginers getting a precise division can be a challenge
+		//Excel does not provide a divide function but in Java, especially for begginers, getting a precise division can be a challenge
+		// if there is a need to transform a int into a double simply pu t (double) before the value or variable
 		double quotient;
 		quotient = dividend / divisor; // the division operator "/" works here because a double/double is forced, a int/double would be imprecise
 		return quotient;
