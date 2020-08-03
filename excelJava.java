@@ -25,6 +25,20 @@ public class excelJava {
 		return quotient;
 	}
 	
+	public double POWER(double base, double exponent){
+		double result;
+		if (exponent == 0) {
+		    return (double)1;
+		}
+		if (exponent == 1) {
+		    return base;
+		}
+		result = base * base;
+		for (int i=2; i < exponent; i ++)
+			result = result * base;
+		return result;
+	}
+	
 	public double MED(double[] args){
 		Arrays.sort(args);
 		double median;
