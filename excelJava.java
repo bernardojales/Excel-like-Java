@@ -39,7 +39,7 @@ public class excelJava {
 		return result;
 	}
 	
-	public double MED(double[] args){
+	public double MEDIAN(double[] args){
 		Arrays.sort(args);
 		double median;
 		if (args.length % 2 == 0)
