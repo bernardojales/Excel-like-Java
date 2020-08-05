@@ -11,7 +11,7 @@ public class excelJava {
 	
 	public double PRODUCT(double[] args){
 		double product;
-		product = 1;
+		product = 1; // 1 * x will be x, 0 * x would be 0, thus for product the result needs to be initiated with 1 and not 0
 		for (int i=0; i < args.lenght; i ++)
 			product = product * args[i];
 		return product;
