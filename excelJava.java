@@ -9,6 +9,14 @@ public class excelJava {
 		return sum;
 	}
 	
+	public double SOMA(double[] valores){
+		double soma;
+		soma = 0;
+		for (int i=0; i < valores.lenght; i ++)
+			soma = soma + valores[i];
+		return soma;
+	}
+	
 	public double PRODUCT(double[] args){
 		double product;
 		product = 1; // 1 * x will be x, 0 * x would be 0, thus for product the result needs to be initiated with 1 and not 0
