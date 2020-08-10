@@ -25,6 +25,14 @@ public class excelJava {
 		return product;
 	}
 	
+	public double PRODUTO(double[] args){
+		double produto;
+		produto = 1; // 1 * x será x, 0 * x seria 0, assim no caso da multiplicação a variável deve ser iniciada com 1 e não com 0
+		for (int i=0; i < args.lenght; i ++)
+			produto = produto * args[i];
+		return produto;
+	}
+	
 	public double DIVIDE(double dividend, double divisor){
 		//Excel does not provide a divide function but in Java, especially for begginers, getting a precise division can be a challenge
 		// if there is a need to transform a int into a double simply put (double) before the value or variable, ex. (double)var (double)10
